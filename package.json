@@ -1,0 +1,25 @@
+{
+  "name": "home.js",
+  "version": "1.0.0",
+  "description": "Here's where I'm developing a node.js module(s) for controlling various devices you would find around your house using node.js as a server for servicing these devices. I eventually hope to extend functionality to be voice controlled via Amazon Echo as soon as resources are made available to me.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonwsims/home.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandonwsims/home.js/issues"
+  },
+  "homepage": "https://github.com/brandonwsims/home.js#readme",
+  "dependencies": {
+    "alexa-skills": "^0.1.0",
+    "chromecast": "1.0.0",
+    "express": "^4.13.0",
+    "socket.io": "^1.3.5"
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "intents": [
+        {
+            "intent": "TV",
+            "slots":
+            [
+                { "name": "select",         "type": "NUMBER"  },
+                { "name": "forward",        "type": "NUMBER"  },
+                { "name": "reverse",         "type": "NUMBER"  },
+                { "name": "volume",         "type": "NUMBER"  },
+                { "name": "play",           "type": "LITERAL" },
+                { "name": "pause",          "type": "LITERAL" },
+                { "name": "stop",           "type": "LITERAL" },
+                { "name": "next",           "type": "LITERAL" },
+                { "name": "previous",       "type": "LITERAL" },
+                { "name": "shuffle",        "type": "LITERAL" },
+                { "name": "subscriptions",   "type": "LITERAL" }
+            ]
+        },
+        {
+            "intent": "Search",
+            "slots":
+            [
+                { "name": "query",          "type": "LITERAL" }
+            ]
+        }
+    ]
+}
